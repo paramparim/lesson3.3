@@ -19,6 +19,8 @@ target_x = random.randomint(0, SCREEN_WIDTH - target_width)
 target_y = random.randomint(0, SCREEN_HEIGHT - target_height)
 
 color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+icon = pygame.image.load("5930147.png")
+
 
 running = True
 while running:
